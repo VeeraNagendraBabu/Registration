@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b8d01946-3d23-4845-94e0-c598e89b87eb": {
+      "ProjectGuid": "b8d01946-3d23-4845-94e0-c598e89b87eb",
+      "DisplayName": "Registrations",
+      "ColorIndex": 0
+    },
+    "03241288-3e21-4a7c-9e34-54dab19709fd": {
+      "ProjectGuid": "03241288-3e21-4a7c-9e34-54dab19709fd",
+      "DisplayName": "Registrations.Common.Infrastructure",
+      "ColorIndex": 1
+    },
+    "c076ee53-3481-4aa1-bae8-30c2446abb02": {
+      "ProjectGuid": "c076ee53-3481-4aa1-bae8-30c2446abb02",
+      "DisplayName": "Registrations.Common.Infrastructure.Persistence.MigrationTool",
+      "ColorIndex": 2
+    },
+    "b018dda2-c55a-4d47-bdcc-2c855271059b": {
+      "ProjectGuid": "b018dda2-c55a-4d47-bdcc-2c855271059b",
+      "DisplayName": "Registrations.UserRegistration.Tests",
+      "ColorIndex": 3
+    },
+    "15de85af-db61-4e5a-9b11-a9956326ef4d": {
+      "ProjectGuid": "15de85af-db61-4e5a-9b11-a9956326ef4d",
+      "DisplayName": "Registrations.Common.Domain",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "615e07a0-79d0-4c30-9252-09867bf2cac5": {
+      "ProjectGuid": "615e07a0-79d0-4c30-9252-09867bf2cac5",
+      "DisplayName": "Registrations.Common.Infrastructure",
+      "ColorIndex": 5
+    },
+    "c4c4498e-984d-4064-8d28-5473078e2c4e": {
+      "ProjectGuid": "c4c4498e-984d-4064-8d28-5473078e2c4e",
+      "DisplayName": "Registrations.Common.Domain",
+      "ColorIndex": 6
+    },
+    "9aa516ab-25cf-4135-bc07-e5b2f87dd253": {
+      "ProjectGuid": "9aa516ab-25cf-4135-bc07-e5b2f87dd253",
+      "DisplayName": "Registrations.UserRegistration",
+      "ColorIndex": 7
+    },
+    "3cbe3a3d-bb30-4274-b098-877058de991e": {
+      "ProjectGuid": "3cbe3a3d-bb30-4274-b098-877058de991e",
+      "DisplayName": "Registrations.Common.Infrastructure.Persistence.MigrationTool",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

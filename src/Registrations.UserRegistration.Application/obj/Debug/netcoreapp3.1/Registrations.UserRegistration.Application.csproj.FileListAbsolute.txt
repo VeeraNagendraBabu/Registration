@@ -1,0 +1,15 @@
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\obj\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.csproj.AssemblyReference.cache
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\obj\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\obj\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.AssemblyInfoInputs.cache
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\obj\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.AssemblyInfo.cs
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\obj\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.csproj.CoreCompileInputs.cache
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\bin\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.deps.json
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\bin\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.dll
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\bin\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.pdb
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\bin\Debug\netcoreapp3.1\Registrations.Common.Domain.dll
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\bin\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.dll
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\bin\Debug\netcoreapp3.1\Registrations.Common.Domain.pdb
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\bin\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.pdb
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\obj\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.csproj.CopyComplete
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\obj\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.dll
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.UserRegistration.Application\obj\Debug\netcoreapp3.1\Registrations.UserRegistration.Application.pdb

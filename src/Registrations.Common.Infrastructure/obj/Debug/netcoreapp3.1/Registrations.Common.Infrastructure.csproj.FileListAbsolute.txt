@@ -1,0 +1,16 @@
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\bin\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.deps.json
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\bin\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.dll
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\bin\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.pdb
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\obj\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.csproj.AssemblyReference.cache
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\obj\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\obj\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.AssemblyInfoInputs.cache
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\obj\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.AssemblyInfo.cs
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\obj\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.csproj.CoreCompileInputs.cache
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\obj\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.dll
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\obj\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.pdb
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\bin\Debug\netcoreapp3.1\Registrations.Common.Domain.dll
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\bin\Debug\netcoreapp3.1\Registrations.Common.Domain.pdb
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\obj\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.csproj.CopyComplete
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\bin\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.runtimeconfig.json
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\bin\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.runtimeconfig.dev.json
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Infrastructure\obj\Debug\netcoreapp3.1\Registrations.Common.Infrastructure.genruntimeconfig.cache
