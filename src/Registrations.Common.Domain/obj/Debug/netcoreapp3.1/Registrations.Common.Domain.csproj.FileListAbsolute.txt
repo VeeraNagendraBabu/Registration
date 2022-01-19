@@ -1,0 +1,9 @@
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Domain\bin\Debug\netcoreapp3.1\Registrations.Common.Domain.deps.json
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Domain\bin\Debug\netcoreapp3.1\Registrations.Common.Domain.dll
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Domain\bin\Debug\netcoreapp3.1\Registrations.Common.Domain.pdb
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Domain\obj\Debug\netcoreapp3.1\Registrations.Common.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Domain\obj\Debug\netcoreapp3.1\Registrations.Common.Domain.AssemblyInfoInputs.cache
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Domain\obj\Debug\netcoreapp3.1\Registrations.Common.Domain.AssemblyInfo.cs
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Domain\obj\Debug\netcoreapp3.1\Registrations.Common.Domain.csproj.CoreCompileInputs.cache
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Domain\obj\Debug\netcoreapp3.1\Registrations.Common.Domain.dll
+C:\work\Test\CollisionTechnologies\Registrations\src\Registrations.Common.Domain\obj\Debug\netcoreapp3.1\Registrations.Common.Domain.pdb

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.Extensions.Logging;
-using Polly;
 using Registrations.Common.Domain.Entities;
+using Registrations.UserRegistration.Application.Core.Models;
 using Registrations.UserRegistration.Application.Interfaces.Handlers;
 using Registrations.UserRegistration.Application.Interfaces.Repositories;
 
@@ -13,56 +14,45 @@ namespace Registrations.UserRegistration.Application.Core.Handlers
     {
         private readonly ILogger<UserHandler> _logger;
         private readonly IUserRepository _repository;
-        public UserHandler(IUserRepository repository, ILogger<UserHandler> logger)
+        private readonly IMapper _mapper;
+
+        public UserHandler(IUserRepository repository, ILogger<UserHandler> logger, IMapper mapper)
         {
             _repository = repository;
             _logger = logger;
+            _mapper = mapper;
         }
 
         public async ValueTask<int> DeleteAsync(int id, CancellationToken cancellationToken)
         {
-            var getUserAsyncTask = _repository.FindAsync(id);
-            var userDetails = await ExecuteTaskWithRetryPolicyAsync(getUserAsyncTask);
-            if (userDetails == null) return 0;
-            var addAsyncTask = _repository.DeleteAsync(userDetails, true, cancellationToken);
-            return await ExecuteTaskWithRetryPolicyAsync(addAsyncTask.AsTask());
+            var userDetails = await _repository.FindAsync(id);
+            if (userDetails == null) throw new Exception("Invalid Request");
+            return await _repository.DeleteAsync(userDetails, true, cancellationToken);
         }
 
-        public async ValueTask<User> AddAsync(User user, CancellationToken cancellationToken)
+        public async ValueTask<UserModel> AddAsync(UserRequestModel user, CancellationToken cancellationToken)
         {
-            var addAsyncTask = _repository.AddAsync(user, true, cancellationToken);
-
-            return await ExecuteTaskWithRetryPolicyAsync(addAsyncTask.AsTask());
+            var request = _mapper.Map<User>(user);
+            var userResponse = await _repository.AddAsync(request, true, cancellationToken);
+            return _mapper.Map<UserModel>(userResponse);
         }
 
-        public async ValueTask<int> UpdateAsync(int id, string userName, CancellationToken cancellationToken)
+        public async ValueTask<int> UpdateAsync(int id, UserRequestModel user, CancellationToken cancellationToken)
         {
-            var existingUser = await GetUser(id);
-            if (existingUser == null) return 0;
-            existingUser.Name = userName;
-            var updateAsyncTask = _repository.UpdateAsync(existingUser, true, cancellationToken);
-            return await ExecuteTaskWithRetryPolicyAsync(updateAsyncTask.AsTask());
+            var existingUser = await GetUserEntity(id);
+            if (existingUser == null) throw new Exception("Invalid Request");
+            existingUser.Name = user.username;
+            existingUser.Id = id;
+            return await _repository.UpdateAsync(existingUser, true, cancellationToken);
         }
-        public async ValueTask<User> GetUser(int id)
+        private async ValueTask<User> GetUserEntity(int id)
         {
-            var getUserAsyncTask = _repository.FindAsync(id);
-
-            return await ExecuteTaskWithRetryPolicyAsync(getUserAsyncTask);
+            return await _repository.FindAsync(id);
         }
-        private Task<T> ExecuteTaskWithRetryPolicyAsync<T>(Task<T> task)
+        public async ValueTask<UserModel> GetUser(int id)
         {
-            var policy = Policy.Handle<Exception>()
-                .Or<TimeoutException>().WaitAndRetryAsync(
-                    4,
-                    retryCount => retryCount == 1 ? TimeSpan.Zero : TimeSpan.FromSeconds(Math.Pow(2, retryCount - 1)),
-                    (exception, timeSpan, retryCount, context) =>
-                    {
-                        _logger.LogWarning(retryCount == 1 ? $"Immediate retry #1, due to {exception.Message}" :
-                            $"Retry #{retryCount}, due to {exception.Message}");
-                    });
-
-            return policy.ExecuteAsync(async () => await task);
+            var user = await _repository.FindAsync(id);
+            return _mapper.Map<UserModel>(user);
         }
-
     }
 }
